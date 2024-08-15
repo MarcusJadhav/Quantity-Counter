@@ -9,8 +9,8 @@ function productCounter(action) {
         --valueElement.innerHTML 
     }
     else if (action == "plus") {
-        if(valueElement.innerHTML == '10') {
-            alert('Product quantity cannot be greater than 10')
+        if(valueElement.innerHTML == '5') {
+            alert('Product quantity cannot be greater than 5')
             return
         }
         ++valueElement.innerHTML
